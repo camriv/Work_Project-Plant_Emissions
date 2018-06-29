@@ -49,7 +49,7 @@ Plotting per quarter highlights the effect of extreme outlier data for 2015 4th 
 
 5. **Box Plots per mixed Period**
 
-When data are plotted yearly in 2015 & 201 and quarterly in 2017, almost all of the box plots now have whiskers below regulatory limits. The medians are also progressing downwards from 1Q to 3Q 2017. 
+When data are plotted yearly in 2015 & 2016 and quarterly in 2017, almost all of the box plots now have whiskers below regulatory limits. The medians are also progressing downwards from 1Q to 3Q 2017. 
 
 These are the final plots proposed to management and which they found acceptable.
 
