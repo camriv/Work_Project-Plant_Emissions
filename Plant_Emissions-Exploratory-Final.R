@@ -158,6 +158,8 @@ for (j in 1:4) {
 
 
 ## 5. Create bound box plots per year in 2015-2016; quarter in 2017
+## It was noted that this form of summarization skews the x-axis scale and other
+## plot types (ie, scatter plot) may be better for showing improvement over time
 
 full <- mutate(full, Period = ifelse(Date < pos, levels(Year)[Year], 
         levels(Quarter)[Quarter]))
@@ -185,7 +187,8 @@ for (i in 1:4){
 ## of the box plots now have whiskers below regulatory limits. The medians are 
 ## also progressing downwards from 1Q to 3Q 2017. 
 
-## These are the final plots proposed to management and which they found acceptable.
+## These are the only plots that management found acceptable, amidst caution that 
+## the x-axis scale was skewed by the mixed period groupings.
 
 
 
