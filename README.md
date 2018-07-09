@@ -1,8 +1,8 @@
 ## Stack Emissions Pollutant Levels for Regulatory Compliance
 
-The company was preparing an Environmental Performance Report which aimed to show whether the company adhered to environmental regulations for the past years. This project focused on exploring and producing the best visual representation of the pollutant readings from the stack emissions of the company’s four power plant trains, Units 1, 2, 3, and 4. 
+The company was preparing an Environmental Performance Report which aimed to show whether the company adhered to environmental regulations for the past years. This project focused on exploring various summarizations of the pollutant readings from the stack emissions of the company’s four power plant trains, Units 1, 2, 3, and 4. 
 
-Traditionally, environmental performance reports are submitted as box plots. The script first analyzed the data using scatter plots, then explored box plots using various grouping of data (ie, per whole time range, per year, per quarter). The best plots which emphasized the company’s progressive improvement in 2017 while still showing noncompliances in previous years were achieved when data were plotted per year in 2015 and 2016, while per quarter in 2017. These mixed-period plots were proposed to management and were the only ones they found acceptable for publication.
+Traditionally, environmental performance reports are submitted as box plots. The script first analyzed the data using scatter plots, then explored box plots using various grouping of data (ie, per whole time range, per year, per quarter). The script first analyzed the data using scatter plots, then explored box plots using various time frame groupings of data - per whole time range, per year, per quarter, and mixed periods. Management was satisfied only when data were plotted per year in 2015 and 2016, and per quarter in 2017 as these plots emphasized the company’s progressive improvement in 2017 while still showing noncompliances in previous years. These plots are to be used with caution however, since the x-axis scale was skewed by presenting the data in this way.
 
 ### Data Scope
 
@@ -51,5 +51,5 @@ Plotting per quarter highlights the effect of extreme outlier data for 2015 4th 
 
 When data are plotted yearly in 2015 & 2016 and quarterly in 2017, almost all of the box plots now have whiskers below regulatory limits. The medians are also progressing downwards from 1Q to 3Q 2017. 
 
-These are the final plots proposed to management and which they found acceptable for publication.
+These are the only plots that management found acceptable, amidst caution that the x-axis scale was skewed by the mixed period groupings.
 
