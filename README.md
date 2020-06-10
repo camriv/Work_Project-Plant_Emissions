@@ -2,7 +2,7 @@
 
 The company was preparing an Environmental Performance Report which aimed to show whether the company adhered to environmental regulations for the past years. This project focused on exploring various summarizations of the pollutant readings from the stack emissions of the company’s four power plant trains, Units 1, 2, 3, and 4. 
 
-Traditionally, environmental performance reports are submitted as box plots. The script first analyzed the data using scatter plots, then explored box plots using various grouping of data (ie, per whole time range, per year, per quarter). The script first analyzed the data using scatter plots, then explored box plots using various time frame groupings of data - per whole time range, per year, per quarter, and mixed periods. Management was satisfied only when data were plotted per year in 2015 and 2016, and per quarter in 2017 as these plots emphasized the company’s progressive improvement in 2017 while still showing noncompliances in previous years. These plots are to be used with caution however, since the x-axis scale was skewed by presenting the data in this way.
+Traditionally, environmental performance reports are submitted as box plots. The script first analyzed the data using scatter plots, then explored box plots using various grouping of data (ie, per whole time range, per year, per quarter). Management was satisfied only when data were plotted per year in 2015 and 2016, and per quarter in 2017 as these plots emphasized the company’s progressive improvement in 2017 while still showing noncompliances in previous years. These plots are to be used with caution however, since the x-axis scale was skewed by presenting the data in this way.
 
 ### Data Scope
 
